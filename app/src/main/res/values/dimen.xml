@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="name">20sp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="gender_margin_right">10dp</dimen>
+    <dimen name="gender_height">30dp</dimen>
+    <dimen name="gender_text_size">40sp</dimen>
+
+</resources>

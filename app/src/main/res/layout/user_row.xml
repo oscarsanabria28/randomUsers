@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/gender_height"
+        android:layout_marginEnd="@dimen/gender_margin_right"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="0dp"
+        android:textSize="@dimen/gender_text_size" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gender_height"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:layout_toEndOf="@id/gender"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/name" />
+
+</RelativeLayout>
